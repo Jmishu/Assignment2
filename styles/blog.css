@@ -1,0 +1,225 @@
+body{
+    background-color: black;
+    color: white;
+}
+/* nav part */
+.header-name{
+    font-size: 40px;
+    color: red;
+    padding-top: 30px;
+}
+.nav-part{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.menu{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.menu-part>a{
+    color: aliceblue;
+    text-decoration: none;
+    margin: 20px;
+    padding-top: 8px;
+
+}
+.hamburger{
+    display: none;
+}
+.primary-btn{
+    background-color: orangered;
+    border:1px solid orangered;
+    border-radius:15px;
+    padding: 10px;
+    color: aliceblue;
+}
+.download-btn{
+    color: aliceblue;
+    background-color: black;
+    padding: 10px;
+    border-radius: 30px;
+      
+}
+/* main part styles */
+
+ .mainbanner-part{
+    max-width: 1200px;
+    margin: 0 auto;
+ }
+ /* banner-part styles */
+ .banner-title{
+    font-size: 70px;
+ }
+.main-banner{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.banner-img{
+    margin-right: 70px;
+    height: 450px;
+    position: relative;
+}
+.para-part{
+    color: darkgray;
+}
+.run-image{
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    border: 1 px solid black  ;
+    border-radius: 10px;
+}
+.up-banner{
+    margin-left: 30px;
+}
+.para-banner{
+    font-size: 60px;
+}
+.run-banner{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+.run-middle{
+    max-width: 1200px;
+    background-color: rgba(105, 105, 105, 0.433);
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+.tutorials{
+    background-color:rgba(0, 0, 0, 0.658);
+    border: 1px solid black;
+    color: aliceblue;
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: max-content;
+    position: absolute;
+    top: 65%;
+    left: 65%;
+}
+.tutorials2{
+    background-color:rgba(0, 0, 0, 0.658);
+    border: 1px solid black;
+    color: aliceblue;
+    padding: 20px 30px;
+    border-radius: 10px;
+    text-align: center;
+    width: max-content;
+    position: absolute;
+    top: 35%;
+    left: 79%;
+}
+.habits-content{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.habits-card{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 110px;
+}
+.habits-img{
+    border-radius: 100px;
+}
+.habits-content{
+    text-align: center;
+    padding-top: 30px;
+}
+.habits-description{
+    text-align: center;
+} 
+/* training */
+.training-part{
+    padding-bottom: 40px;
+    padding-top: 50px;
+}
+.row{
+    height: 200px;
+    display: flex;
+}
+.row img{
+    width: 100%;
+    height: 100%;
+}
+/* meet */
+.contain{
+    height: 250px;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+    background-color: dimgrey;
+    
+}
+.contain img{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 4px 4px 4px dimgray;
+}
+.meet-section{
+    margin-left: 150px;
+    margin-right: 150px;
+
+
+}
+
+
+
+
+
+
+
+
+
+/* Responsive for mobile Device */
+@media screen and (max-width:576px) {
+    .nav-part
+    {
+        flex-direction: row;
+        text-align: center;
+        margin:10px 30px;
+    }
+    
+    .hamburger{
+        display: block;
+        margin-top: 30px;
+    }
+    .menu-part{
+        display: none;
+    }
+    .menu{
+        border: none;
+    }
+    .main-banner{
+        
+        flex-direction: column;
+    } 
+    .run-banner{
+        flex-direction: column;
+    }
+    .banner-image{
+        padding: 30px;
+    }
+   
+    .habits-card{
+        grid-template-columns: repeat(1,1fr);
+        text-align: center;
+        margin-top: 10px;
+    } 
+    .habits-section{
+        margin:0 auto;
+        padding-top:30px ;
+    }
+   
+    }
+      
+
